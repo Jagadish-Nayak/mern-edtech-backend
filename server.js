@@ -26,7 +26,7 @@ app.use(fileUpload({
 app.use(cookieParser());
 app.use(
     cors({
-        origin:"http://localhost:3000",
+        origin:["http://localhost:3000","https://fluffy-licorice-7ea7d5.netlify.app/"],
         credentials:true,
     })
 );
